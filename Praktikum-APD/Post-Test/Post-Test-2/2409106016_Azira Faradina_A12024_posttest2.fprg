@@ -1,0 +1,44 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="4.2">
+    <attributes>
+        <attribute name="name" value="POSTTEST 2"/>
+        <attribute name="authors" value="ASUS"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2024-09-17 03:52:09 PM"/>
+        <attribute name="created" value="QVNVUztaSVJVWTsyMDI0LTA5LTE0OzAzOjE0OjMzIFBNOzIwMTU="/>
+        <attribute name="edited" value="QVNVUztaSVJVWTsyMDI0LTA5LTE3OzAzOjUyOjA5IFBNOzg7MjEzOA=="/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="namaLengkap, namaPanggilan, prodi, hobi, asalKota, citaCita" type="String" array="False" size=""/>
+            <declare name="nim, umur" type="Integer" array="False" size=""/>
+            <declare name="bb, tb" type="Real" array="False" size=""/>
+            <output expression="&quot;Program pengisian biodata&quot;" newline="True"/>
+            <output expression="&quot;Masukkan nama lengkap anda: &quot;" newline="False"/>
+            <input variable="namaLengkap"/>
+            <output expression="&quot;Masukkan nama panggilan anda: &quot;" newline="True"/>
+            <input variable="namaPanggilan"/>
+            <output expression="&quot;Masukkan NIM anda: &quot;" newline="True"/>
+            <input variable="nim"/>
+            <output expression="&quot;Masukkan Program Studi anda: &quot;" newline="True"/>
+            <input variable="prodi"/>
+            <output expression="&quot;Masukkan umur anda: &quot;" newline="True"/>
+            <input variable="umur"/>
+            <output expression="&quot;Masukkan berat badan anda (dalam kg): &quot;" newline="True"/>
+            <input variable="bb"/>
+            <output expression="&quot;Masukkan tinggi badan anda (dalam cm): &quot;" newline="True"/>
+            <input variable="tb"/>
+            <output expression="&quot;Masukkan asal kota anda: &quot;" newline="True"/>
+            <input variable="asalKota"/>
+            <output expression="&quot;Masukkan hobi anda: &quot;" newline="True"/>
+            <input variable="hobi"/>
+            <output expression="&quot;Masukkan cita-cita anda: &quot;" newline="True"/>
+            <input variable="citaCita"/>
+            <output expression="&quot;Nama saya &quot; &amp; namaLengkap &amp; &quot;, biasa dipanggil &quot; &amp; namaPanggilan" newline="False"/>
+            <output expression="&quot;. NIM saya adalah &quot; &amp; nim &amp; &quot;. Saya berasal dari Program Studi &quot; &amp; prodi" newline="True"/>
+            <output expression="&quot;. Saya berumur &quot; &amp; umur &amp; &quot; tahun. Berat badan saya adalah &quot; &amp; bb &amp; &quot; kg dan tinggi badan saya &quot; &amp; tb &amp; &quot; cm.&quot;" newline="True"/>
+            <output expression="&quot; Saya berasal dari &quot; &amp; asalKota &amp; &quot;. Hobi saya adalah &quot; &amp; hobi &amp; &quot;. Di masa depan saya ingin menjadi &quot; &amp; citaCita &amp; &quot;.&quot;" newline="True"/>
+        </body>
+    </function>
+</flowgorithm>
