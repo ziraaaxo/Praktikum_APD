@@ -1,0 +1,27 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="4.2">
+    <attributes>
+        <attribute name="name" value="kategori umur"/>
+        <attribute name="authors" value="ASUS"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2024-09-18 08:10:27 AM"/>
+        <attribute name="created" value="QVNVUztaSVJVWTsyMDI0LTA5LTE4OzA4OjA3OjM0IEFNOzIwMTI="/>
+        <attribute name="edited" value="QVNVUztaSVJVWTsyMDI0LTA5LTE4OzA4OjEwOjI3IEFNOzE7MjExNg=="/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="umur" type="Integer" array="False" size=""/>
+            <output expression="&quot;Masukkan umur: &quot;" newline="True"/>
+            <input variable="umur"/>
+            <if expression="umur &lt; 18">
+                <then>
+                    <output expression="&quot;Masuk kategori anak di bawah umur&quot;" newline="True"/>
+                </then>
+                <else>
+                    <output expression="&quot;Masuk kategori dewasa.&quot;" newline="True"/>
+                </else>
+            </if>
+        </body>
+    </function>
+</flowgorithm>
